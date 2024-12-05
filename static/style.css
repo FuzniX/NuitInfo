@@ -56,7 +56,6 @@
   }
 
 header {
-    background-color: #316396;
     color: white;
     font-family: 'Inter';
     position: fixed;
@@ -65,7 +64,7 @@ header {
     transform: translateX(-50%);
     width: 100%;
     text-align: center;
-    background-color: rgba(30, 31, 33, 0.6);
+    background-color: #316396;
     padding: 1.5em 2em; /* Utilisation d'unités relatives */
     z-index: 1000;
 }
