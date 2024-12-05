@@ -1,7 +1,5 @@
 from flask import Flask, render_template, redirect, request
 import random
-import string
-import mysql.connector
 
 app = Flask(__name__)
 
