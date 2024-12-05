@@ -8,6 +8,10 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/footer/<page>')
+def footer(page):
+    return render_template(f'footer/{page}.html')
+
 # Gestion de l'erreur 404
 @app.errorhandler(404)
 def page_not_found(e):
