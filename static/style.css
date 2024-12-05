@@ -193,6 +193,8 @@ footer a:hover{
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 @keyframes showHeader{
