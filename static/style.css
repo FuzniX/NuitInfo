@@ -135,12 +135,14 @@ header .container {
 }
 
 footer {
+  margin-top: 60px;
   background-color: #316396;
   padding-top: 30px;
   padding-bottom: 25px;
   color: #fff;
   font-family: 'Inter';
   font-size: 18px;
+  height: 400px;
 }
 
 footer .container {
@@ -163,16 +165,24 @@ footer a:hover{
 .icons {
   display: flex;
   justify-content: space-between;
-  max-width: 200px;
+  max-width: 400px;
 }
 .icons img {
   width: 40px;
   height: 40px;
 }
 
+/* .menu_footer, .icons, .terms {
+  margin-top: 40px;
+} */
 .menu_footer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.menu a {
+  margin-left: 10px;
 }
 
 .menu_footer h3 {
