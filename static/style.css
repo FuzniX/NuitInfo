@@ -104,16 +104,16 @@ header .container {
 #main {
   margin-top: 60px;
   font-family: 'Inter';
-  font-size: 36px;
+  font-size: 20px;
 }
 #main p {
-  max-width: 800px;
+  max-width: 500px;
   text-align: left;
 }
 
 #main h2 {
   text-transform: uppercase;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -125,8 +125,8 @@ header .container {
 }
 
 .item img {
-  max-width: 800px;
-  max-height: 600px;
+  max-width: 500px;
+  max-height: 300px;
   border-radius: 25px;
 }
 
