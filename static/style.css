@@ -60,11 +60,22 @@ header {
     font-family: 'Inter';
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     width: 100%;
     text-align: center;
     background-color: #316396;
     padding: 1.5em 2em; /* Utilisation d'unités relatives */
     z-index: 1000;
+    animation-name: showHeader;
+    animation-duration: 0.5s;
+}
+
+@keyframes showHeader{
+  0%{
+      opacity: 0;
+      top: -70px;
+  }
+  100%{
+      opacity: 1;
+      top: 0;
+  }
 }
