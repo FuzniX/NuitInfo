@@ -62,12 +62,19 @@
     
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .container{
   width: 100%;
-  max-width: 1170px;
+  max-width: 1380px;
   margin: 0 auto;
-  
 }
+
+
 header {
     color: white;
     font-family: 'Inter';
@@ -80,6 +87,98 @@ header {
     z-index: 10;
     animation-name: showHeader;
     animation-duration: 0.5s;
+   
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+#main {
+  margin-top: 60px;
+  font-family: 'Inter';
+  font-size: 22px;
+}
+#main p {
+  max-width: 500px;
+  text-align: left;
+}
+
+#main h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.item {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item img {
+  width: 600px;
+  max-height: 350px;
+  border-radius: 25px;
+}
+
+.item_2 {
+  flex-direction: row-reverse;
+}
+
+footer {
+  background-color: #316396;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 18px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}
+.icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.menu_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_footer h3 {
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @keyframes showHeader{
