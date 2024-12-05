@@ -71,13 +71,13 @@
 header {
     color: white;
     font-family: 'Inter';
-    position: fixed;
+    position: sticky;
     top: 0;
+    left: 0;
     width: 100%;
-    width: 100px;
     background-color: #316396;
     padding: 1.5em 2em; /* Utilisation d'unités relatives */
-    z-index: 1000;
+    z-index: 10;
     animation-name: showHeader;
     animation-duration: 0.5s;
 }
