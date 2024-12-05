@@ -169,7 +169,7 @@ footer a:hover{
   height: 40px;
 }
 
- .menu_footer, .icons, .terms {
+ .menu_footer, .icons, .term {
   margin-top: 40px;
 } 
 .menu_footer {
@@ -187,6 +187,12 @@ footer a:hover{
   text-transform: uppercase;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.cover {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes showHeader{
