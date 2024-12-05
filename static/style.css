@@ -104,7 +104,7 @@ header .container {
 #main {
   margin-top: 60px;
   font-family: 'Inter';
-  font-size: 20px;
+  font-size: 25px;
 }
 #main p {
   max-width: 500px;
@@ -118,7 +118,7 @@ header .container {
 }
 
 .item {
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,11 +126,11 @@ header .container {
 
 .item img {
   width: 600px;
-  max-height: 400px;
+  max-height: 350px;
   border-radius: 25px;
 }
 
-.item-2 {
+.item_2 {
   flex-direction: row-reverse;
 }
 
