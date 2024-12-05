@@ -162,7 +162,7 @@ footer a:hover{
 .icons {
   display: flex;
   justify-content: space-between;
-  max-width: 400px;
+  min-width: 250px;
 }
 .icons img {
   width: 40px;
@@ -185,8 +185,6 @@ footer a:hover{
 
 .menu_footer h3 {
   text-transform: uppercase;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .cover {
