@@ -8,6 +8,10 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/activites')
+def home():
+    return render_template('activites.html')
+
 @app.route('/footer/<page>.html')
 def footer(page):
     return render_template(f'footer/{page}.html')
