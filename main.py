@@ -9,7 +9,7 @@ def home():
     return render_template('index.html')
 
 @app.route('/activites')
-def home():
+def activites():
     return render_template('activites.html')
 
 @app.route('/footer/<page>.html')
